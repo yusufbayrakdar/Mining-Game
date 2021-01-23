@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "mining game server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusufbayrakdar/Mining-Game.git"
+  },
+  "author": "Sabri Bayrakdar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusufbayrakdar/Mining-Game/issues"
+  },
+  "homepage": "https://github.com/yusufbayrakdar/Mining-Game#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.4.0"
+  }
+}
