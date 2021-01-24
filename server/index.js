@@ -15,7 +15,7 @@ app.use((err, req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-    res.send("Welcome To Mining Game Server 🙋‍♂️");
+	res.sendFile(__dirname+'/index.html');
 });
 
 const server = {
