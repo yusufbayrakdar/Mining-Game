@@ -3,7 +3,7 @@ const router = express.Router();
 
 const User = require('./User');
 
-const db = require('../models/index');
+const db = require('../knex');
 
 // inject db to req
 router.use((req,res,next) => {
