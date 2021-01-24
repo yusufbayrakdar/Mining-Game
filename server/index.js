@@ -15,7 +15,7 @@ app.use((err, req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Mining Game Server');
+    res.send("Welcome To Mining Game Server 🙋‍♂️");
 });
 
 const server = {

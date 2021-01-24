@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const User = require('./User');
+const User = require('./user');
 
 const db = require('../knex');
 
