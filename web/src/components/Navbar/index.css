@@ -1,0 +1,37 @@
+.YsNavbar {
+  background-color: #0066cc !important;
+  position: fixed;
+  position: fixed;
+  padding-bottom: 10px;
+  padding-top: 18px !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.navbarIcon {
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding-right: 7px;
+}
+
+.App-link {
+  color: rgba(255, 255, 255, 0.7);
+  padding-right: 10px;
+}
+
+.App-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.headerButtons{
+  margin-right:0;
+  margin-left:auto;
+  display: flex; justify-content: flex-end;
+  width: 440px;
+}
+.currentNav{
+  color: #ffffff;
+  text-decoration: none;
+}

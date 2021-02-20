@@ -1,0 +1,140 @@
+.bykInput {
+  overflow: hidden;
+  height: 50px;
+  padding-top: 1px;
+  padding-left: 45px;
+  display: grid;
+  grid-template-columns: 10em 1fr;
+  grid-template-areas: "bykInputIcon" "bykInputField";
+}
+
+.bykInputIcon {
+  vertical-align: bottom;
+  position: relative;
+  padding-top: 9px;
+  border-bottom: 2px solid #0066cc;
+  font-size: 49px;
+  padding-bottom: 7px;
+  width: 50px;
+  color: #0066cc;
+  text-align: center;
+  grid-area: bykInputIcon;
+}
+
+.bykInputField {
+  color: #0066cc;
+  /* padding: 0px 10px; */
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  /* height: 45px; */
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #b3d9ff;
+  position: relative;
+  width: calc(100% - 78px);
+  caret-color: rgba(0, 0, 0, 0);
+  transition: border 0.3s ease-in-out;
+  grid-area: bykInputField;
+}
+
+.bykInputField:focus {
+  border-bottom: 2px solid #0066cc;
+  caret-color: rgba(0, 0, 0, 1);
+  transition: border 0.3s ease-in-out;
+}
+
+.bykInputField::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  position: relative;
+  bottom: -2px;
+  color: #0066cc;
+  left: 5px;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.bykInputField:focus::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  position: relative;
+  opacity: 0;
+  bottom: 20px;
+}
+
+.errorMessageShow {
+  color: red;
+  font-size: 13px;
+  position: relative;
+  bottom: 0px;
+  opacity: 1;
+  transition: 0.4s ease-in;
+}
+
+.errorMessageHide {
+  opacity: 0;
+  font-size: 13px;
+  position: relative;
+  bottom: 10px;
+  transition: 0.4s ease-out;
+  animation-iteration-count: infinite;
+}
+
+.popUpListShow {
+  width: 87% !important;
+  margin-top: 45px;
+  display: table;
+  z-index: 11;
+  position: absolute;
+  background-color: white;
+  opacity: 1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease-in-out;
+}
+.popUpListHide {
+  position: absolute;
+  opacity: 0;
+  transition: 0.15s ease-in-out;
+  display: none;
+}
+.allSuggestions {
+  background-color: white !important;
+  width: 100% !important;
+}
+.allSuggestionsArrow {
+  color: white !important;
+  background-color: #0066cc !important;
+}
+.tbody {
+  display: grid;
+  overflow-y: scroll;
+  width: 100%;
+}
+.label {
+  position: absolute;
+  color: #0066cc;
+  padding-left: 65px;
+  padding-top: 13px;
+  z-index: 1;
+  cursor: text;
+  user-select: none;
+  transition: 0.3s ease-in-out;
+  pointer-events: none;
+}
+.labelMinimize {
+  position: absolute;
+  color: #0066cc;
+  padding-left: 55px;
+  font-size: 10px;
+  z-index: 1;
+  cursor: text;
+  transition: 0.3s ease-in-out;
+}
+.hidePopup {
+  display: none;
+}
+.showPopup {
+  display: table;
+}

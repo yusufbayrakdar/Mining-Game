@@ -1,0 +1,181 @@
+.datePickerClosed{
+    all: initial;
+    border-top: 0px solid !important;
+    border-left: 0px solid !important;
+    border-right: 0px solid !important;
+    border-bottom: 2px solid #A5D0EA !important;
+    border-bottom-width: 0px;
+    transition: 0.4s ease-in-out;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    width: calc(100vw - 300px);
+    color: #0066cc;
+}
+.datePickerOpen{
+    all: initial;
+    border-top: 0px solid !important;
+    border-left: 0px solid !important;
+    border-right: 0px solid !important;
+    border-bottom: 2px solid #0066cc !important;
+    border-bottom-width: 100%;
+    transition: 0.4s ease-in-out;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    width: calc(100vw - 200px);
+    color: #0066cc;
+}
+.dateIcon{
+    border-bottom: 2px solid #0066cc !important;
+    width: 52px;
+    height: 35px;
+    font-size: 23px;
+    color: #0066cc;
+}
+.center{
+    width: 100vw;
+    overflow: hidden;
+    margin-left: auto;
+    text-align: center;
+    padding-left: 45px;
+}
+.corners{
+    overflow: hidden;
+    padding-top: 10px;
+    width: calc(100% - 42px);
+}
+.sugTexts{
+    padding-left: 20px;
+}
+.tag-wrapper{
+    all: initial;
+    text-align: center;
+    /* overflow: hidden; */
+    color: #0066CC;
+    padding-top: 10px;
+    padding-left: 5px;
+    background-color: #EBEBEB;
+    border: 2px solid #0066CC;
+    border-radius: 25px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 12px;
+    top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+    cursor: default !important;
+}
+.ReactTags__selected{
+    all: initial;
+    margin: auto;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    width: 88%;
+    height: 100px;
+    background-color: red;
+}
+.remove{
+    all: initial;
+    width: 15px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 1px;
+    margin: auto;
+    margin-left: 5px;
+    color: #2d2d2d;
+    font-size: 8px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.remove:hover{
+    background-color: #d9d9d9;
+}
+.ReactTags__tagInputField{
+    display: none;
+}
+.badges{
+    width: 97% !important;
+}
+.badge{
+    background-color: #f9f9f9;
+    border: 1px solid #e2e2e2 !important;
+    color: #2d2d2d;
+    border-radius: 3px !important;
+    text-align: center;
+}
+
+.badgeRow{
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.badgeText{
+    text-align: center;
+    padding-top: 3px;
+
+}
+.addMaterialRow{
+    width: 97%;
+}
+.amount{
+    all: initial;
+    width: 100px;
+    margin-left: -60px !important;
+    margin-top: 10px;
+    color: #0066CC;
+    border: none;
+    text-align: center;
+    z-index: 10;
+    position: absolute;
+}
+.arrowUp{
+    font-size: 30px;
+    position: absolute;
+    /* z-index: -1; */
+    margin-top: -6px;
+    margin-left: -18px;
+    color: #719ECE;
+}
+.arrowUp:hover{
+    color: #0066CC;
+}
+.arrowDown{
+    font-size: 30px;
+    position: absolute;
+    /* z-index: -1; */
+    margin-top: 12px;
+    margin-left: -18px;
+    color: #719ECE;
+}
+.arrowDown:hover{
+    color: #0066CC;
+}
+.materialSection{
+    margin-top: 20px;
+    border-top: 1px solid #d7dbd0 !important;
+    border-bottom: 1px solid #d7dbd0 !important;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.dropdown{
+    padding-bottom: 10px;
+}
+.materialsHeader{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d2d2d;
+    margin-top: -32px;
+    margin-left: 40%;
+    background-color: white;
+}
+.tempMaterialAdditionButton{
+    width: 100%;
+}
+.react-datepicker{
+    z-index: 2px;
+}

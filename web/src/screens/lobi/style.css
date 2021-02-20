@@ -1,0 +1,75 @@
+.lobi-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-lobi-card {
+  width: 800px;
+  min-height: 300px;
+  text-align: center;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "player-list . . ."
+    "player-list game-settings game-settings game-settings"
+    "player-list game-settings game-settings game-settings"
+    "player-list game-settings game-settings game-settings"
+    "player-list . . ."
+    "player-list . start-game-btn .";
+  border: none;
+}
+
+.player-list {
+  grid-area: player-list;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-left: 1px solid #0090dd;
+  border-right: 1px solid #0090dd;
+  border-bottom: 1px solid #0090dd;
+}
+
+.player-icon {
+  font-size: 15px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+.player-list-title {
+  background: linear-gradient(to left, #3b5998, #0090dd) !important;
+  color: whitesmoke;
+  line-height: 40px;
+}
+.player-name {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  left: 10px;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-settings {
+  grid-area: game-settings;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.start-game-btn {
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  grid-area: start-game-btn;
+}
+
+.bold {
+  font-weight: bold;
+}
